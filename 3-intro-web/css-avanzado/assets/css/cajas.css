@@ -2,16 +2,28 @@
 height: 150px;
 width: 150px;
 margin: 20px;
+padding: 20px;
+border: 10px solid yellow;
+border-radius: 50%;
 } 
 .el-1 {
 background-color: blue;
+position: static;
 }
 .el-2 {
     background-color: green;
+    position: absolute;
+    top: 100px;
+    right: 250px;
 }
 .el-3 {
     background-color: violet;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 .el-4 {
+    position: sticky;
+    top: 0;
     background-color: darkblue;
 }
