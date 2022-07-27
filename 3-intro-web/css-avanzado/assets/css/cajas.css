@@ -1,0 +1,16 @@
+.cuadro {
+height: 150px;
+width: 150px;
+} 
+.el-1 {
+background-color: blue;
+}
+.el-2 {
+    background-color: green;
+}
+.el-3 {
+    background-color: violet;
+}
+.el-4 {
+    background-color: darkblue;
+}
