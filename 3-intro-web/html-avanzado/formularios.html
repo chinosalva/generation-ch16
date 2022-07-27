@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="/assets/css/formularios.css">
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <label for="">Nombre</label>
+        <input type="text" placeholder="Panchito Lopez"
+        name="nombre" id="nombre>
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <input type="password" name="password" id="password">
+            <input type="color" name="color" id="color">
+            <input type="number" name="number" id="number">
+            <input type="search" name="search" id="search">
+
+        </div>
+        <div class="submit">
+            <input type="submit" value="Enviar">
+        </div>
+        <div class="clean">
+            <input type="reset" value="Limpiar">
+        </div>
+    </form>
+    <h3>Input de rango con marcas </h3>
+    <input type="range" list="tickmarcks">
+    <datalist id="tickmarcks">
+        <option vallue="0">
+            <option vallue="5">
+                <option vallue="10">
+                </datalist>
+</body>
+</html>
