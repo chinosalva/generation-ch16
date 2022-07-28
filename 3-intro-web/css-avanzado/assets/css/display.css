@@ -1,0 +1,35 @@
+.cuadro-padre{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cuadro {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid yellow;
+    display: inline-block;
+    } 
+    .el-1 {
+    background-color: blue;
+    }
+    .el-2 {
+        background-color: green;
+        flex-grow: 1;
+    }
+    .el-3 {
+        background-color: violet;
+
+    }
+    .el-4 {
+        background-color: darkblue;
+    }
+
+    .contenedor {
+        height: 200px;
+        background-color: aquamarine;
+        max-width: 1500px;
+    }
