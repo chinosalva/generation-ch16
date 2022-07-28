@@ -32,4 +32,11 @@
         height: 200px;
         background-color: aquamarine;
         max-width: 1500px;
+        margin: 0 auto;
+    }
+    .fila {
+        display: flex;
+    }
+    .columna {
+        flex-grow: 1;
     }
