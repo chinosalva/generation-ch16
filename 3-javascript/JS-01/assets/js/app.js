@@ -19,3 +19,7 @@ if (true) {
     ambito = "El patio"
 }
 let fuera = "Aqui ya no es mi casa"
+
+// BooLean
+let booleano = true
+let booleano2 = false
