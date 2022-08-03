@@ -41,3 +41,30 @@ switch (nuevaCondicion){
         console.log('No entendi tu mensaje')    
 }
 
+let edad = 30
+switch (edad >= 10){
+    case true:
+    console.log('Mayor')
+    break
+    case false: 
+    console.log('Mayor')
+}
+
+let Calculadora = 'sumar'
+switch (Calculadora){
+    case sumar:
+    console.log('Vamos a Sumar')
+    break
+    case restar: 
+    console.log('Vamos a Restar')
+    break
+    case multiplicar:
+    console.log('Vamos a Multiplicar')
+    break
+    case dividir:
+    console.log('Vamos a Dividir')
+    break
+    default:
+    console.log('No entendi el comando')
+    
+}
