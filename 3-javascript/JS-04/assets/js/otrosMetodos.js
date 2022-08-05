@@ -28,4 +28,6 @@ for (let i = 0; i < arrNumeros; i++){
     arrNumeros[i] = arrNumeros[i] * 2
 }
 
-arrNumeros.forEach((elemento) => console.log(elemento) )
+arrNumeros.forEach((elemento, index, arr) => {
+    console.log(elemento *= 2)
+} )
