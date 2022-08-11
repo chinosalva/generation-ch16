@@ -22,7 +22,7 @@ function dividir (a, b){
         console.log( a / b)
     }
 }
-dividri(10, 3)
+dividir(10, 3)
 
 // Switch
 let nuevaCondicion = 1

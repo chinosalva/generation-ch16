@@ -31,6 +31,3 @@ for (let i = 0; i < arrNumeros; i++){
 arrNumeros.forEach((elemento, index, arr) => {
     console.log(elemento *= 2)
 } )
-
-let cali = 5
-cali 
