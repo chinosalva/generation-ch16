@@ -5,6 +5,14 @@ public class Abstract {
 
     private  float altura;
 
+    @Override
+    public String toString() {
+        return "Abstract{" +
+                "base=" + base +
+                ", altura=" + altura +
+                '}';
+    }
+
     public Abstract(float base, float altura) {
         this.base = base;
         this.altura = altura;
