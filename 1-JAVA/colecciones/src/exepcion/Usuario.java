@@ -1,6 +1,6 @@
 package exepcion;
 
-public class usuario {
+public class Usuario {
     private String usrname;
     private String password;
     private String nombre;
@@ -38,4 +38,3 @@ public class usuario {
         this.email = email;
     }
 }
-
